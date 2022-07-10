@@ -13,29 +13,10 @@ Some studies about Nest JS
 - Docker
 - TypeORM
 
-## Installation
-
-```bash
-$ yarn
-```
-
-## Running Database
-
-```bash
-$ docker-compose up -d
-```
-
 ## Running the app
 
 ```bash
-# development
-$ yarn start
-
-# watch mode
-$ yarn start:dev
-
-# production mode
-$ yarn start:prod
+$ docker-compose up -d
 ```
 
 ## Test
@@ -53,9 +34,12 @@ $ yarn test:cov
 
 ## Todo
 
+- [X] Put Nest on Docker
+- [X] Add GraphQL
 - [ ] Add Tests
-- [ ] Put Nest on Docker
 - [ ] Add RabbitMQ
 - [ ] Add endpoints
 - [ ] Add CI/CD
 - [ ] Add authentication
+- [ ] Add Redis
+- [ ] Add Logs
